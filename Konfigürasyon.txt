@@ -1,0 +1,26 @@
+#SMTP SUNUCUSUNU MİKROTİK'te ayarlamak için:
+1.Tools'a gidin
+2.E-Posta SMTP Sunucu bilgilerini Yazın.
+
+#SMTP Sunucu Bilgileri:
+1.Server= smtp.gmail.com or 74.125.130.109
+Port=SMTP-Port (varsayılan olarak 587)
+TLS/SSL: GEREKLİ.
+From=Email-Address (Yönlendiricinin E-Mail adresi)
+User: [Gmail kullanıcı adınız (E-Posta adresiniz), Örneğin seninpostan@gmail.com.]
+Password: [Gmail Şifreniz]
+
+#Scripti Mikrotiğe Eklemek.
+1.System/Script Bölümüne giriş yapın.
+2.Script eklemek için + işaretine tıklayın.
+3.Scriptimizi script.txt adlı not defterinden kopyalayıp yapıştıracağız.
+4.Scripte bir isim vereceğiz.Örneğin:xRouterBackup.
+5.Romon ve Dude'nin işaretini kaldırın.
+6.Apply'e tıklayıp kaydedin.
+
+#Manual System/Scheduler:
+1.AutoBackup'u Mailden iletmesi için zamanlama yapacağız.
+2.System/Scheduler sekmesine tıklayın.
+3.+ İşaretine tıklayın.
+4.Script Name: xRouterBackup
+5.Start time: 23.59.59 ve interval 1Day.
