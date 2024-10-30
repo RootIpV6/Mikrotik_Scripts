@@ -23,7 +23,7 @@ Always test complex configurations in a lab environment before deploying to prod
 📢 Contributions
 Feel free to contribute by adding new scripts or improving existing ones. Let's make MikroTik management easier for everyone!
 
-Happy scripting! 🛠️🌐
+
 
 
              ALİ RIZA SAYDAN
